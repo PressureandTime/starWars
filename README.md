@@ -2,10 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+For this application I have used Material UI for the Modal dialog that will appear when clicking on the individual character because I thought modal is good way to display more detailed information
+
+And for time calculations I have used moment, its very good package for date manipulation and showing the format in many ways
+
+For styling I have used styled components because I believe that for React and considering using just CSS can lead to leaking of the styles to other components and many other issues with nesting.
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -37,7 +49,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it. Using styled components will prevent this, isolated them and it has many features that other css compilers have minus the drawbacks
 
 ## Learn More
 
