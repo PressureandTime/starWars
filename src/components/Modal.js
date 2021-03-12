@@ -21,7 +21,7 @@ const CustomDialog = ({ isOpen, handleClose, title, subtitle, children, classes 
       <Dialog
         classes={{ paper: classes.dialogPaper }}
         open={isOpen}
-        onCLose={handleClose}
+        onClose={handleClose}
         aria-labelledby="max-width-dialog-title">
         <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
           <DialogActions>
